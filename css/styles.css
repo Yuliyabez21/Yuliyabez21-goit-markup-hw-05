@@ -951,9 +951,8 @@ margin-bottom: 16px
 
 
 .modal-check-text {
-    display: flex;
+    display: inline-flex;
     margin-top: 16px;
-    margin-bottom: 24px;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
