@@ -886,11 +886,11 @@ margin-bottom: 8px;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* .modal-icon:hover,
+.modal-icon:hover,
 .modal-icon:focus {
     fill: #4D5AE5;
     border: none;
-} */
+}
 
 .modal-field-comment {
 margin-bottom: 16px
@@ -934,7 +934,7 @@ margin-bottom: 16px
     }
 
 .modal-check-text span {
-    display: inline-block;
+    display: inline-flex;
     width: 16px;
     height: 16px;
     margin-right: 8px;
