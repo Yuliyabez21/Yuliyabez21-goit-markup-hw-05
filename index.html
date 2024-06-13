@@ -580,8 +580,7 @@
           <p class="subscribe-text">Subscribe</p>
           
           <form class="footer-form">
-            <div class="footer-form-wrap">
-              <label class="footer-label" for="email" aria-label="email"></label>
+              <label class="footer-label" for="email" aria-label="email">
               <input
                     class="footer-input"
                     type="email"
@@ -589,15 +588,18 @@
                     id="email"
                     placeholder="E-mail"
                   />
-            </div>
-                <button class="footer-form-btn" type="submit">Subscribe</button>
+                  </label>
+                <button class="footer-form-btn" type="submit">Subscribe 
+                  <svg class="subscribe-icon">
+                  <use href="./images/icons.svg#icon-frame-3"></use>
+                </svg></button>
           </form>
         </div>
 
       </div>
     </footer>
 
-    <div class="backdrop is-open">
+    <div class="backdrop">
       <div class="modal">
         <button type="button" class="modal-close-btn">
           <svg class="modal-close-icon" width="8" height="8">
