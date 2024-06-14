@@ -916,8 +916,13 @@ margin-bottom: 24px;
     border: none;
 }
 
-.modal-icon-svg {
+.modal-icon:hover > .modal-icon-svg,
+.modal-icon:focus > .modal-icon-svg {
     fill: #4D5AE5;
+}
+
+.modal-icon-svg {
+    fill: #2e2f42;
 }
 
 .modal-field-comment {
