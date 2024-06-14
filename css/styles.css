@@ -915,8 +915,8 @@ margin-bottom: 24px;
     border: none;
 }
 
-.modal-input:hover>.modal-icon,
-.modal-input:focus>.modal-icon {
+.modal-input:hover > .modal-icon,
+.modal-input:focus > .modal-icon {
     fill: #4D5AE5;
 }
 
