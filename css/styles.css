@@ -935,7 +935,7 @@ margin-bottom: 16px
     outline: transparent;
     padding: 8px 16px;
     color: rgba(46, 47, 66, 0.4);
-    color: #2e2f42;
+    /* color: #2e2f42; */
     resize: none;
     border: 1px solid rgba(46, 47, 66, 0.4);
     background-color: transparent;
