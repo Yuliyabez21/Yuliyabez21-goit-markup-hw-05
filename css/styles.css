@@ -636,8 +636,6 @@ margin-right: 120px;
  justify-content: center;
  margin-right: 80px;
 
-
-
 }
 
 .footer-social-text {
@@ -918,8 +916,7 @@ margin-bottom: 24px;
     border: none;
 }
 
-.modal-input:hover > .modal-icon-svg,
-.modal-input:focus > .modal-icon-svg {
+.modal-icon-svg {
     fill: #4D5AE5;
 }
 
