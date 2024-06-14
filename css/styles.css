@@ -993,16 +993,16 @@ margin-bottom: 16px
 line-height: 1.33;
 text-decoration: underline;
 text-decoration-skip-ink: none;
-color: #8e8f99;
+color: #4d5ae5;
 margin-left: 4px;
 text-decoration: underline;
 text-decoration-skip-ink: none;
 }
 
-.privacy-policy:hover,
+/* .privacy-policy:hover,
 .privacy-policy:focus {
 color: #4d5ae5;
-}
+} */
 
 .modal-btn {
 display: block;
