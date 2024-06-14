@@ -894,10 +894,6 @@ margin-bottom: 24px;
     border: 1px solid #4d5ae5;
 }
 
-.modal-input:hover > .modal-icon,
-.modal-input:focus > .modal-icon {
-    fill: #404bbf;
-}
 
 .modal-input::placeholder {
     color: rgba(46, 47, 66, 0.4);
@@ -917,6 +913,11 @@ margin-bottom: 24px;
 .modal-icon:focus {
     fill: #4D5AE5;
     border: none;
+}
+
+.modal-input:hover>.modal-icon,
+.modal-input:focus>.modal-icon {
+    fill: #4D5AE5;
 }
 
 .modal-field-comment {
